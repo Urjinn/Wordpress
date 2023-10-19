@@ -8,7 +8,8 @@
     font-family: Roboto-Regular, sans-serif;
 }
 
-/*=======================================*/
+/*=Promo Section=====================*/
+
 .container {
     margin: 0 auto;
     width: 1140px;
@@ -127,4 +128,57 @@
     font-style: normal;
     font-weight: 100;
     text-transform: uppercase;
+}
+
+/*=Waitint Section=====================*/
+
+.wating {
+    padding-top: 85px;
+    height: 610px;
+    background-color: #EFEFEF;
+}
+.wating_items {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.wating_item {
+    width: 340px;
+}
+.wating-title {
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.wating-decor {
+    margin: 20px auto;
+    background-color: rgba(249, 191, 59, 1);
+    width: 220px;
+    height: 10px;
+    border-radius: 10px;
+}
+.wating-subtitle {
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+}
+.wating-img {  
+    width: 100%;
+}
+.waitng-text {
+    margin-top: 26px;
+
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
 }
