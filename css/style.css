@@ -133,8 +133,8 @@
 /*=Waitint Section=====================*/
 
 .wating {
-    padding-top: 85px;
-    height: 610px;
+    padding: 85px 0;
+    min-height: 10px;
     background-color: #EFEFEF;
 }
 .wating_items {
@@ -182,3 +182,37 @@
     font-style: normal;
     font-weight: 300;
 }
+
+/*Section optimization===========*/
+
+.optimization {
+    padding: 110px 0;
+    min-height: 10px;
+    background: url(../img/bg/woman_bg.png)220px 90px no-repeat;
+}
+.optimization .optimization-title {
+    position: relative;
+    left: 390px;
+    color: #299CBD;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.optimization .optimization-text {
+    margin-top: 20px;
+    position: relative;
+    left: 390px;    
+    width: 750px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; /* 158.824% */
+}
+.optimization .optimization-text-bold {
+    font-weight: 900;
+}
+
