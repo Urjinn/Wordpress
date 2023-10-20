@@ -18,7 +18,7 @@
 
 .promo {
     height: 800px;
-    background: url(../img/bg/main_bg.png) center center/cover no-repeat;
+    background: url('../img/bg/main_bg.png') center center/cover no-repeat;
 }
 .logo {
     display: block;
@@ -95,8 +95,11 @@
     width: 330px;
     height: 75px;
     background-color: #3AB6DA;
-    border-radius: 5px;
+    box-shadow: 5px 5px 15px #505050;
+    border-radius: 15px;
+    border: none;
     cursor: pointer;
+
 
     color: #FFF;
     text-align: center;
@@ -132,7 +135,7 @@
 
 /*=Waitint Section=====================*/
 
-.waiting {
+.waiting, .finish {
     padding: 85px 0;
     min-height: 10px;
     background-color: #EFEFEF;
@@ -145,7 +148,7 @@
 .waiting_item {
     width: 340px;
 }
-.waiting-title {
+.waiting-title, .finish-title {
     color: #252525;
     text-align: center;
     font-family: Roboto;
@@ -154,7 +157,7 @@
     font-weight: 400;
     text-transform: uppercase;
 }
-.waiting-decor {
+.waiting-decor, .finish-decor {
     margin: 20px auto;
     background-color: rgba(249, 191, 59, 1);
     width: 220px;
@@ -188,7 +191,7 @@
 .optimization {
     padding: 110px 0;
     min-height: 10px;
-    background: url(../img/bg/woman_bg.png)220px 90px no-repeat;
+    background: url('../img/bg/woman_bg.png')220px 90px no-repeat;
 }
 .optimization .optimization-title {
     position: relative;
@@ -216,3 +219,66 @@
     font-weight: 900;
 }
 
+/*Section Finish================*/
+.finish {
+    background: url('../img/bg/second_bg.png') center center/cover no-repeat;
+    min-height: 10px;
+}
+.finish-title {
+    color: white;
+}
+
+.finish-items {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish-item {
+    width: 200px;
+}
+.finish-item-bg {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    background-color: #B4E2FF;;
+}
+.finish-img {
+
+}
+.finish-item-text {
+    display: block;
+    margin-top: 25px;
+    color: #EFEFEF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 117.647% */
+}
+
+/*Section Present======================*/
+
+.present {
+    background-color: #EFEFEF;
+    min-height: 10px;
+    padding: 85px 0;
+}
+.present-img {
+    display: block;
+    margin: 0 auto;
+}
+.present-text {
+    margin-top: 45px;
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px; /* 143.333% */
+}
