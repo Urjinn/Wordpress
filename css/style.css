@@ -191,7 +191,18 @@
 .optimization {
     padding: 110px 0;
     min-height: 10px;
-    background: url('../img/bg/woman_bg.png')220px 90px no-repeat;
+    /*background: url('../img/bg/woman_bg.png')center 90px no-repeat;*/
+}
+.optimization-wrapper {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+}
+.optimization-wrapper .optimization-img {
+    position: absolute;
+    top: 36px;
+    left: -800px;
 }
 .optimization .optimization-title {
     position: relative;
