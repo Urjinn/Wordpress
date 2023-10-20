@@ -132,20 +132,20 @@
 
 /*=Waitint Section=====================*/
 
-.wating {
+.waiting {
     padding: 85px 0;
     min-height: 10px;
     background-color: #EFEFEF;
 }
-.wating_items {
+.waiting_items {
     margin-top: 45px;
     display: flex;
     justify-content: space-between;
 }
-.wating_item {
+.waiting_item {
     width: 340px;
 }
-.wating-title {
+.waiting-title {
     color: #252525;
     text-align: center;
     font-family: Roboto;
@@ -154,14 +154,14 @@
     font-weight: 400;
     text-transform: uppercase;
 }
-.wating-decor {
+.waiting-decor {
     margin: 20px auto;
     background-color: rgba(249, 191, 59, 1);
     width: 220px;
     height: 10px;
     border-radius: 10px;
 }
-.wating-subtitle {
+.waiting-subtitle {
     color: #4A4A4A;
     text-align: center;
     font-family: Roboto;
@@ -169,7 +169,7 @@
     font-style: normal;
     font-weight: 400;
 }
-.wating-img {  
+.waiting-img {  
     width: 100%;
 }
 .waitng-text {
